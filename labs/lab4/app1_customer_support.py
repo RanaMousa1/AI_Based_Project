@@ -115,7 +115,7 @@ def build_support_agent():
 
     # Load vector store and build retrieval chain
     vector_db = load_knowledge_base()
-    llm = ChatGroq(model="llama3-8b-8192", temperature=0)
+    llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
     memory = ConversationBufferMemory(
         memory_key="chat_history", return_messages=True, output_key="output"
     )

@@ -167,6 +167,6 @@ and ArXiv for peer-reviewed research papers ...
 
 ## 5. Notes
 
-- **LLM Model**: Both apps use Llama 3 8B via the Groq API for fast inference.
+*Note: Models used are Llama 3.1 8B via the Groq API for fast inference.*
 - **Knowledge Base**: App 1 reads all `.txt` files from the `./knowledge` folder. You can add more files to expand the support system's expertise.
 - **Report Formats**: App 2 supports `brief` (quick summary), `detailed` (full analysis), and `academic` (formal paper structure).

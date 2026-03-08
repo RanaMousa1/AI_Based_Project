@@ -250,7 +250,7 @@ def research(topic: str, report_format: str = "detailed") -> str:
             all_references += "\n" + arxiv_references
 
         # ----- Synthesis via LLMChain -----
-        llm = ChatGroq(model="llama3-8b-8192", temperature=0.3)
+        llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.3)
         prompt_template = FORMAT_MAP[report_format]
         chain = LLMChain(llm=llm, prompt=prompt_template)
 
