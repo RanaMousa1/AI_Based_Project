@@ -1,11 +1,14 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 
 # 1. Vectorization (3 Knowledge Bases)
 loader = DirectoryLoader('./knowledge', glob="./*.txt", loader_cls=TextLoader)
@@ -14,9 +17,9 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 chunks = splitter.split_documents(docs)
 vector_db = FAISS.from_documents(chunks, HuggingFaceEmbeddings())
 
-# 2. Memory & LLM
+# 2. Memory & LLM (Using Groq for free models)
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True, output_key="answer")
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+llm = ChatGroq(model="llama3-8b-8192", temperature=0)
 
 # 3. Retrieval Chain
 qa = ConversationalRetrievalChain.from_llm(llm, vector_db.as_retriever(), memory=memory)
