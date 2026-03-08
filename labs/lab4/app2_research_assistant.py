@@ -14,11 +14,20 @@ arxiv = lambda q: ArxivLoader(query=q, load_max_docs=2).load()
 
 # 2. Synthesis Logic
 def research(topic):
-    llm = ChatGroq(model="llama3-8b-8192")
-    data = f"WIKI: {wiki.run(topic)}\nARXIV: {arxiv(topic)}"
-    
-    prompt = PromptTemplate.from_template("Synthesize into a formal report with citations: {data}")
-    return llm.predict(prompt.format(data=data))
+    try:
+        wiki_data = wiki.run(topic)
+        arxiv_data = arxiv(topic)
+        
+        # 3. Filtering Mechanism (Simple Length check)
+        if len(wiki_data) < 100 and not arxiv_data: return "Topic not found or lack of sufficient data."
+
+        llm = ChatGroq(model="llama3-8b-8192")
+        data = f"WIKI: {wiki_data}\nARXIV: {arxiv_data}"
+        
+        prompt = PromptTemplate.from_template("Generate a report with deep synthesis and clear source citations: {data}")
+        return llm.predict(prompt.format(data=data))
+    except Exception as e:
+        return f"Research Error: {e}"
 
 if __name__ == "__main__":
     print(research("AI in healthcare"))

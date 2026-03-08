@@ -30,6 +30,9 @@ def check_stock(item): return f"Item '{item}': Available"
 
 # Usage
 if __name__ == "__main__":
-    query = "What is the return policy?"
-    ans = qa.invoke({"question": query})
-    print(f"Response: {ans['answer']}")
+    try:
+        query = "What is the return policy?"
+        ans = qa.invoke({"question": query})
+        print(f"Response: {ans['answer']}")
+    except Exception as e:
+        print(f"Support Error: {e}")
