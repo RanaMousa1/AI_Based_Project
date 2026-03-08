@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Obsidian files
+.obsidian/workspace.json
+.obsidian/last-sync.json
+
+# If you want to ignore ALL obsidian settings but keep the notes:
+# .obsidian/
+
+# Temp files
+*.tmp
+*.log
+
+# Python (just in case you add scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
