@@ -1,1 +1,43 @@
-Product A is a high-end smartphone with a 6.7-inch OLED display, 12GB RAM, and 256GB storage. It features a triple-lens camera system with 100x zoom.
+Product A — TechNova X200 Smartphone
+
+Overview:
+The TechNova X200 is a flagship smartphone built for professionals and power users. It runs on the latest Android 15 operating system and receives guaranteed software updates for five years.
+
+Display:
+- 6.7-inch Dynamic AMOLED 2X display
+- 3200 x 1440 resolution (Quad HD+)
+- 120Hz adaptive refresh rate
+- Gorilla Glass Victus 3 protection
+
+Performance:
+- Processor: Snapdragon 8 Gen 3
+- RAM: 12GB LPDDR5X
+- Storage: 256GB / 512GB options (no microSD slot)
+- Battery: 5000mAh with 65W wired fast charging and 15W wireless charging
+
+Camera System:
+- Main: 200MP wide lens with OIS
+- Ultra-wide: 12MP with 120-degree field of view
+- Telephoto: 50MP with 100x Space Zoom
+- Front: 32MP selfie camera with autofocus
+- 8K video recording at 30fps
+
+Connectivity:
+- 5G (Sub-6 and mmWave)
+- Wi-Fi 7, Bluetooth 5.4, NFC
+- USB-C 3.2 with DisplayPort output
+- Dual SIM + eSIM support
+
+Pricing:
+- 256GB model: $999
+- 512GB model: $1,149
+- Available colors: Obsidian Black, Arctic Silver, Midnight Blue
+
+Warranty:
+The TechNova X200 comes with a standard 1-year manufacturer warranty covering hardware defects. Extended warranty plans (2 or 3 years) can be purchased separately through the TechNova Care program.
+
+Troubleshooting:
+- If the device is unresponsive, hold Power + Volume Down for 10 seconds to force restart.
+- Battery draining fast? Go to Settings > Battery > Adaptive Battery and enable it.
+- Camera not focusing? Clean the lens and restart the camera app.
+- For any hardware issues, contact TechNova support at support@technova.com or call 1-800-TECHNOVA.

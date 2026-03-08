@@ -1,1 +1,59 @@
-Product B is a lightweight laptop designed for students. It has a 13-inch screen, 8GB RAM, and 512GB SSD. The battery lasts up to 15 hours.
+Product B — TechNova EduBook 14 Laptop
+
+Overview:
+The TechNova EduBook 14 is a lightweight, affordable laptop designed for students and educators. It emphasises portability, long battery life, and everyday productivity.
+
+Display:
+- 14-inch IPS LCD
+- 1920 x 1080 Full HD resolution
+- Anti-glare coating
+- 300 nits brightness
+
+Performance:
+- Processor: Intel Core i5-1340P (12th Gen)
+- RAM: 8GB DDR5 (upgradeable to 16GB)
+- Storage: 512GB NVMe SSD
+- Graphics: Intel Iris Xe integrated
+
+Battery:
+- 72Wh battery
+- Up to 15 hours of typical use
+- 45W USB-C fast charging (50% in 30 minutes)
+
+Design:
+- Weight: 1.3 kg (2.87 lbs)
+- Thickness: 16.9mm
+- Material: Recycled aluminium chassis
+- MIL-STD-810H durability certified (drop, vibration, temperature)
+
+Ports and Connectivity:
+- 2x USB-C (Thunderbolt 4)
+- 1x USB-A 3.2
+- 1x HDMI 2.0
+- 1x 3.5mm headphone jack
+- microSD card reader
+- Wi-Fi 6E, Bluetooth 5.3
+
+Software:
+- Ships with Windows 11 Home (free upgrade to Windows 11 Pro for education customers)
+- Includes 1-year Microsoft 365 Personal subscription
+
+Pricing:
+- Base model (8GB / 512GB): $599
+- Upgraded model (16GB / 512GB): $749
+- Available colors: Cloud Grey, Forest Green
+
+Accessories:
+- TechNova Slim Sleeve (compatible): $29.99
+- TechNova USB-C Hub 7-in-1: $49.99
+- TechNova Wireless Mouse M100: $19.99
+
+Warranty:
+Standard 1-year manufacturer warranty. Education customers receive an automatic 2-year warranty extension at no extra cost.
+
+Troubleshooting:
+- Laptop not turning on? Hold the power button for 15 seconds, then try again.
+- Slow performance? Check Task Manager for background processes consuming high CPU.
+- Wi-Fi issues? Run the built-in Network Troubleshooter from Settings > Network.
+- Screen flickering? Update the Intel graphics driver from the Intel Driver Support Assistant.
+- For support, visit support.technova.com or email laptop-help@technova.com.
