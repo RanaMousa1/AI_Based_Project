@@ -4,11 +4,7 @@ Thumbs.db
 .directory
 
 # Obsidian files
-.obsidian/workspace.json
-.obsidian/last-sync.json
-
-# If you want to ignore ALL obsidian settings but keep the notes:
-# .obsidian/
+.obsidian/
 
 # Temp files
 *.tmp
