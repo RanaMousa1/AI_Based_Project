@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Obsidian files
+.obsidian/
+
+# Temp files
+*.tmp
+*.log
+
+# Python (just in case you add scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
